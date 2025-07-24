@@ -1,0 +1,161 @@
+{
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--akshar)",
+            "fontStyle": "normal",
+            "fontWeight": "300",
+            "fontSize": "0.9em"
+        },
+        "elements": {
+            "link": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--merriweather-sans)",
+                    "fontStyle": "normal",
+                    "fontWeight": "500"
+                },
+                "color": {
+                    "text": "var:preset|color|black"
+                }
+            },
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--pattaya)",
+                    "fontStyle": "normal",
+                    "fontWeight": "400"
+                },
+                "color": {
+                    "text": "var:preset|color|pale-pink"
+                }
+            },
+            "h1": {
+                "typography": {
+                    "fontSize": "2em"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "1.8em"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "1.6em"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "1.4em"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "1.2em"
+                }
+            },
+            "h6": {
+                "typography": {
+                    "fontSize": "1em"
+                }
+            }
+        },
+        "blocks": {
+            "core/navigation": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--akshar)"
+                }
+            }
+        },
+        "color": {
+            "text": "var:preset|color|black"
+        }
+    },
+    "settings": {
+        "typography": {
+            "fontFamilies": {
+                "custom": [
+                    {
+                        "name": "Pattaya",
+                        "slug": "pattaya",
+                        "fontFamily": "Pattaya, sans-serif",
+                        "fontFace": [
+                            {
+                                "src": "https://poeticsoft.com/wp-content/uploads/fonts/ea8ZadcqV_zkHY-XNdWn92ZEmVs.woff2",
+                                "fontWeight": "400",
+                                "fontStyle": "normal",
+                                "fontFamily": "Pattaya"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Akshar",
+                        "slug": "akshar",
+                        "fontFamily": "Akshar, sans-serif",
+                        "fontFace": [
+                            {
+                                "src": "https://poeticsoft.com/wp-content/uploads/fonts/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSSgFy9WY94XsnPc.woff2",
+                                "fontWeight": "300",
+                                "fontStyle": "normal",
+                                "fontFamily": "Akshar"
+                            },
+                            {
+                                "src": "https://poeticsoft.com/wp-content/uploads/fonts/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSUQFy9WY94XsnPc.woff2",
+                                "fontWeight": "500",
+                                "fontStyle": "normal",
+                                "fontFamily": "Akshar"
+                            },
+                            {
+                                "src": "https://poeticsoft.com/wp-content/uploads/fonts/Yq6I-LyHWTfz9rGoqDaUbHvhkAUsSZECy9WY94XsnPc.woff2",
+                                "fontWeight": "700",
+                                "fontStyle": "normal",
+                                "fontFamily": "Akshar"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "shadow": {
+            "presets": {
+                "custom": []
+            }
+        },
+        "color": {
+            "palette": {
+                "default": [
+                    {
+                        "name": "Negro",
+                        "slug": "black",
+                        "color": "#000000"
+                    },
+                    {
+                        "name": "Gris",
+                        "slug": "gris",
+                        "color": "#7d7d7d"
+                    },
+                    {
+                        "name": "Blanco",
+                        "slug": "blanco",
+                        "color": "#ffffff"
+                    },
+                    {
+                        "name": "Naranja",
+                        "slug": "naranja-a",
+                        "color": "#ed2800"
+                    },
+                    {
+                        "name": "Naranja pálido",
+                        "slug": "naranja-b",
+                        "color": "#ff9079"
+                    },
+                    {
+                        "name": "Blanco transparente",
+                        "slug": "blanco-transparente-a",
+                        "color": "#ffffff87"
+                    }
+                ]
+            }
+        }
+    },
+    "isGlobalStylesUserThemeJSON": true,
+    "version": 3
+}

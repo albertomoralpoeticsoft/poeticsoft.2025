@@ -1,0 +1,62 @@
+[
+  {
+    "file": "index.html",
+    "description": "Fallback para todas las plantillas"
+  },
+  {
+    "file": "home.html",
+    "description": "Página del blog si está configurada como tal"
+  },
+  {
+    "file": "front-page.html",
+    "description": "Página de inicio si se selecciona como portada"
+  },
+  {
+    "file": "single.html",
+    "description": "Entradas individuales (post)"
+  },
+  {
+    "file": "page.html",
+    "description": "Páginas individuales (page)"
+  },
+  {
+    "file": "archive.html",
+    "description": "Archivos de categorías, etiquetas, autor, fecha"
+  },
+  {
+    "file": "category.html",
+    "description": "Archivo de categoría específico"
+  },
+  {
+    "file": "tag.html",
+    "description": "Archivo de etiquetas"
+  },
+  {
+    "file": "author.html",
+    "description": "Archivo de autor"
+  },
+  {
+    "file": "date.html",
+    "description": "Archivo por fecha"
+  },
+  {
+    "file": "search.html",
+    "description": "Resultados de búsqueda"
+  },
+  {
+    "file": "404.html",
+    "description": "Página no encontrada"
+  },
+  {
+    "file": "attachment.html",
+    "description": "Páginas de archivos adjuntos"
+  },
+  {
+    "file": "singular.html",
+    "description": "Plantilla para cualquier tipo singular"
+  },
+  {
+    "file": "taxonomy.html",
+    "description": "Plantilla para cualquier taxonomía"
+  }
+]

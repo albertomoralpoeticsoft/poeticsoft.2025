@@ -1,0 +1,150 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "background": true,
+      "text": true,
+      "link": true,
+      "custom": true,
+      "customDuotone": true,
+      "customGradient": true,
+      "defaultPalette": true,
+      "defaultGradients": true,
+      "gradients": [
+        {
+          "name": "Degradado Azul",
+          "gradient": "linear-gradient(135deg, #00f, #0ff)",
+          "slug": "azul"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": [
+            "#000000",
+            "#ffffff"
+          ],
+          "slug": "blanco-negro",
+          "name": "Blanco y negro"
+        }
+      ],
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#0073aa",
+          "name": "Primario"
+        },
+        {
+          "slug": "secondary",
+          "color": "#005177",
+          "name": "Secundario"
+        }
+      ]
+    },
+    "typography": {
+      "customFontSize": true,
+      "dropCap": false,
+      "fluid": true,
+      "lineHeight": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "fontFamilies": [
+        {
+          "slug": "sans",
+          "fontFamily": "Helvetica, Arial, sans-serif",
+          "name": "Sans Serif"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "0.8rem",
+          "name": "Small"
+        },
+        {
+          "slug": "medium",
+          "size": "1rem",
+          "name": "Medium"
+        },
+        {
+          "slug": "large",
+          "size": "2rem",
+          "name": "Large"
+        }
+      ]
+    },
+    "spacing": {
+      "customSpacingSize": true,
+      "spacingScale": {
+        "steps": 7,
+        "mediumStep": 2
+      },
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "%"
+      ]
+    },
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px",
+      "spacing": {
+        "padding": "20px",
+        "margin": "0 auto"
+      }
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    },
+    "blocks": {
+      "core/paragraph": {
+        "typography": {
+          "fontSize": "medium"
+        }
+      },
+      "core/image": {
+        "border": {
+          "radius": "8px"
+        }
+      }
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#ffffff",
+      "text": "#212529",
+      "link": "#0073aa"
+    },
+    "spacing": {
+      "padding": {
+        "top": "2rem",
+        "bottom": "2rem"
+      }
+    },
+    "typography": {
+      "fontFamily": "Helvetica, Arial, sans-serif",
+      "fontSize": "1rem",
+      "lineHeight": "1.6"
+    }
+  },
+  "customTemplates": {
+    "about": "Acerca de nosotros",
+    "landing": "Página de aterrizaje"
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Encabezado",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Pie de página",
+      "area": "footer"
+    }
+  ]
+}

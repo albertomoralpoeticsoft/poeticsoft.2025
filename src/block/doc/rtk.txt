@@ -1,0 +1,12 @@
+Documentación de la API
+La documentación oficial y más completa de RTK Query, incluyendo la API de @reduxjs/toolkit/query/react, se encuentra en el sitio web de Redux Toolkit:
+
+Overview de RTK Query: https://redux-toolkit.js.org/rtk-query/overview
+
+createApi API Reference: https://redux-toolkit.js.org/rtk-query/api/createApi
+
+Queries (uso de los hooks): https://redux-toolkit.js.org/rtk-query/usage/queries
+
+Mutations (uso de los hooks): https://redux-toolkit.js.org/rtk-query/usage/mutations
+
+Quick Start Guide: https://redux-toolkit.js.org/tutorials/rtk-query

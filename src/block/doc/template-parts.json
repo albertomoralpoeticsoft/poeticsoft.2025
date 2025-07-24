@@ -1,0 +1,47 @@
+[
+  {
+    "file": "header.html",
+    "area": "header",
+    "description": "Encabezado del sitio"
+  },
+  {
+    "file": "footer.html",
+    "area": "footer",
+    "description": "Pie de página"
+  },
+  {
+    "file": "sidebar.html",
+    "area": "uncategorized",
+    "description": "Barra lateral (si aplica)"
+  },
+  {
+    "file": "post-meta.html",
+    "area": "uncategorized",
+    "description": "Metadatos del post"
+  },
+  {
+    "file": "comments.html",
+    "area": "uncategorized",
+    "description": "Sección de comentarios"
+  },
+  {
+    "file": "loop.html",
+    "area": "uncategorized",
+    "description": "Bucle de entradas"
+  },
+  {
+    "file": "content.html",
+    "area": "uncategorized",
+    "description": "Contenido del post"
+  },
+  {
+    "file": "hero.html",
+    "area": "uncategorized",
+    "description": "Bloque de bienvenida o cabecera visual"
+  },
+  {
+    "file": "call-to-action.html",
+    "area": "uncategorized",
+    "description": "Sección de llamada a la acción"
+  }
+]

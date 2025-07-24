@@ -1,0 +1,101 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "poeticsoft/basegemini",
+  "title": "Base Gemini",
+  "category": "poeticsoft",
+  "icon": "format-chat",
+  "description": "Interface base para un bloque de dialogo con Gemini AI Api",
+  "keywords": [],
+  "textdomain": "poeticsoft",
+  "version": "1.0.0",
+
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "context": {
+      "type": "string"
+    },
+    "userInit": {
+      "type": "string"
+    }
+  },
+
+  "supports": {
+    "align": ["wide", "full", "left", "center", "right"],
+    "anchor": true,
+    "ariaLabel": true,
+    "color": {
+      "text": true,
+      "background": true,
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": true
+    },
+    "customClassName": true,
+    "dimensions": {
+      "minHeight": true,
+      "maxHeight": true,
+      "minWidth": true,
+      "maxWidth": true,
+      "aspectRatio": true,
+      "__experimentalDefaultControls": true
+    },
+    "html": false,
+    "interactivity": {
+      "interactive": true,
+      "clientNavigation": true
+    },
+    "__experimentalBorder": {
+      "radius": true,
+      "width": true,
+      "color": true,
+      "style": true,
+      "__experimentalDefaultControls": true
+    },
+    "__experimentalLayout": {
+      "type": "constrained",
+      "contentSize": "720px",
+      "wideSize": "1100px",
+      "allowInheriting": true,
+      "allowSizing": true,
+      "__experimentalDefaultControls": true
+    },
+    "lock": true,
+    "multiple": true,
+    "reusable": true,
+    "shadow": true,
+    "spacing": {
+      "margin": true,
+      "padding": ["top", "bottom", "left", "right"],
+      "blockGap": true,
+      "__experimentalDefaultControls": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "fontFamily": true,
+      "fontStyle": true,
+      "fontWeight": true,
+      "textDecoration": true,
+      "textTransform": true,
+      "letterSpacing": true,
+      "__experimentalDefaultControls": true
+    }
+  },
+
+  "example": {
+    "attributes": {
+      "url": "/basegemini-doc",
+      "context": "Context and prompt for dialog based in Doc",
+      "userInit": "First user message"
+    }
+  },  
+  
+  "editorScript": "file:./build/editor.js",
+  "editorStyle": "file:./build/editor.css",
+  "viewScript": "file:./build/view.js",
+  "viewStyle": "file:./build/view.css",
+  "render": "file:./render.php" 
+}

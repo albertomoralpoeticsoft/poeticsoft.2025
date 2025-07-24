@@ -1,0 +1,41 @@
+{
+  "id": "chatcmpl-BUJWbYpOEYPwj96wjgCrw600rxeVT",
+  "object": "chat.completion",
+  "created": 1746564593,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "ref": "https://chatgpt.com/c/681a774a-5534-8012-a231-1b3222ba5576",
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "function_call": {
+          "name": "buscar_productos",
+          "arguments": "{\"palabra_clave\":\"zapatillas deportivas\"}"
+        },
+        "refusal": null,
+        "annotations": []
+      },
+      "logprobs": null,
+      "finish_reason": "function_call"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 104,
+    "completion_tokens": 24,
+    "total_tokens": 128,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "service_tier": "default",
+  "system_fingerprint": null
+}

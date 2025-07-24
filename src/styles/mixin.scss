@@ -1,0 +1,57 @@
+@mixin absolutebox(
+  $top: 0,
+  $right: 0,
+  $bottom: 0,
+  $left: 0
+) {
+
+  position: absolute !important;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@mixin ellipsis() {
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin flexcenter($direction: row) {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: $direction;
+}
+ 
+@mixin bgimage(
+  $image, 
+  $size: contain, 
+  $position: center
+) {
+  
+  background-image: url($image);
+  background-size: $size;
+  background-position: $position;
+  background-repeat: no-repeat;
+}
+
+@mixin centerflex() {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button () {
+
+  padding: var(--s) var(--s2);
+  background-color: var(--color-d);
+  border: none;
+  color: var(--color-c);
+  cursor: pointer;
+}

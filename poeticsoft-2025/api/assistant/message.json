@@ -1,0 +1,27 @@
+{
+  "SmsMessageSid": "SM6f59134389a934d6ba8e25f37c895ee4",
+  "NumMedia": "0",
+  "ProfileName": "Alberto Moral",
+  "MessageType": "text",
+  "SmsSid": "SM6f59134389a934d6ba8e25f37c895ee4",
+  "WaId": "34629475867",
+  "SmsStatus": "received",
+  "Body": "Check 6",
+  "To": "whatsapp:+14155238886",
+  "NumSegments": "1",
+  "ReferralNumMedia": "0",
+  "MessageSid": "SM6f59134389a934d6ba8e25f37c895ee4",
+  "AccountSid": "AC1c860a93157ed3b03311fe58fe616fc9",
+  "ChannelMetadata": {
+    "type": "whatsapp",
+    "data": {
+      "context": {
+        "ProfileName": "Alberto Moral",
+        "WaId": "34629475867"
+      }
+    }
+  },
+  "From": "whatsapp:+34629475867",
+  "ApiVersion": "2010-04-01"
+}
+

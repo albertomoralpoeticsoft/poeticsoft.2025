@@ -8,7 +8,9 @@ function poeticsoft_api_data() {
     // https://aistudio.google.com/app/apikey
     'gemini_apikey' => get_option('poeticsoft_settings_gemini_apikey', null),
   
-    'openai_apikey' => ''
+    'openai_apikey' => '',
+
+    'telegram_token' => '7554511295:AAGpdl_PkdxC80omNhD5dD0fSJSkZlwKeVw'
   ];
 
   return $data;

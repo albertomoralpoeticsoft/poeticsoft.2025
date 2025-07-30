@@ -43,10 +43,7 @@ function poeticsoft_gemini_models_byname(WP_REST_Request $req) {
       $model = [
         'id' => $model->name,
         'name' => $model->displayName,
-        'description' => $model->description,
-        'temperature' => $model->temperature,
-        'topP' => $model->topP,
-        'topK' => $model->topK
+        'description' => $model->description
       ];
     }
 

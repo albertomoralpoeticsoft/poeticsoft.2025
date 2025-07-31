@@ -1,4 +1,9 @@
-@use '~styles/mixin' as *;
+/* ****************************
+  TODO common root in blocks 
+  */
+
+ @use '~styles/root';
+ @use '~styles/mixin' as *;
 
 .wp-block-poeticsoft-basegemini {
 

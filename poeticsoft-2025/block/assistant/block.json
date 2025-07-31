@@ -4,14 +4,14 @@
   "name": "poeticsoft/assistant",
   "title": "Assistant",
   "category": "poeticsoft",
-  "icon": "format-chat",
+  "icon": "id-alt",
   "description": "Parametrización de diálogo con AI Api",
   "keywords": [],
   "textdomain": "poeticsoft",
   "version": "1.0.0",
 
   "attributes": {
-    "docpageid": {
+    "preprompt": {
       "type": "string"
     },
     "prompt": {

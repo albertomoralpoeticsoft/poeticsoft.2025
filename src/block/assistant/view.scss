@@ -1,8 +1,5 @@
-@use '~styles/variables' as *;
+@use '~styles/root';
 @use '~styles/mixin' as *;
 
-.wp-block-poeticsoft-base { 
-
-  // @include absolutebox();
-  // @include flexcenter();
+.wp-block-poeticsoft-assistant { 
 }

@@ -4,7 +4,8 @@
   "license": "GPL-2.0-or-later",
   "scripts": {
     "block-base-dev": "webpack --env=block-base-dev",
-    "block-basegemini-dev": "webpack --env=block-basegemini-dev"
+    "block-basegemini-dev": "webpack --env=block-basegemini-dev",
+    "block-assistant-dev": "webpack --env=block-assistant-dev"
   },
   "dependencies": {
     "@babel/core": "^7.18.10",

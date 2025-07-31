@@ -1,62 +1,23 @@
-/*!*************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/block/basegemini/view.scss ***!
-  \*************************************************************************************************************************/
-.wp-block-poeticsoft-basegemini {
-  position: absolute !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.wp-block-poeticsoft-basegemini .app {
-  position: absolute !important;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: var(--s8) var(--s4);
-  display: flex;
-  flex-direction: column;
-  gap: var(--s3);
-}
-.wp-block-poeticsoft-basegemini .app .models,
-.wp-block-poeticsoft-basegemini .app .model {
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-}
-.wp-block-poeticsoft-basegemini .app .models .status,
-.wp-block-poeticsoft-basegemini .app .model .status {
-  display: flex;
-  align-items: center;
-  padding: var(--s) 0;
-}
-.wp-block-poeticsoft-basegemini .app .models .status button,
-.wp-block-poeticsoft-basegemini .app .model .status button {
-  padding: var(--s) var(--s2);
-  background-color: var(--color-d);
-  border: none;
-  color: var(--color-c);
-  cursor: pointer;
-  display: block;
-}
-.wp-block-poeticsoft-basegemini .app .models .status .text,
-.wp-block-poeticsoft-basegemini .app .model .status .text {
-  font-weight: 500;
-  margin: 0 0 0 var(--s);
-}
-.wp-block-poeticsoft-basegemini .app .models .list,
-.wp-block-poeticsoft-basegemini .app .models .data,
-.wp-block-poeticsoft-basegemini .app .model .list,
-.wp-block-poeticsoft-basegemini .app .model .data {
-  flex: 1;
-  overflow: auto;
-  padding: var(--s) 0;
-  border: solid var(--color-d);
-  border-width: 1px 0;
-}
-.wp-block-poeticsoft-basegemini .app .models .list .modelname a {
-  cursor: pointer;
+/*!************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/block/assistant/view.scss ***!
+  \************************************************************************************************************************/
+:root {
+  /* SIZES */
+  --space: 8px;
+  --s025: calc(var(--space) * 0.25);
+  --s05: calc(var(--space) * 0.5);
+  --s075: calc(var(--space) * 0.75);
+  --s: var(--space);
+  --s15: calc(var(--space) * 1.5);
+  --s2: calc(var(--space) * 2);
+  --s3: calc(var(--space) * 3);
+  --s4: calc(var(--space) * 4);
+  --s5: calc(var(--space) * 5);
+  --s6: calc(var(--space) * 6);
+  --s7: calc(var(--space) * 7);
+  --s8: calc(var(--space) * 8);
+  --s9: calc(var(--space) * 9);
+  --s10: calc(var(--space) * 10);
 }
 
 /*# sourceMappingURL=view.css.map*/

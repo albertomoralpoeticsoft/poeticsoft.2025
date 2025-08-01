@@ -1,0 +1,59 @@
+/* ****************************
+  TODO common root in blocks 
+  */
+
+@use '~styles/root';
+
+.components-panel__body.poeticsoft-post-settings-telegram {
+
+  background-color: var(--color-bg);
+
+  .components-panel__body-title {
+
+    margin-bottom: 0;
+  }
+
+  .Settings {
+
+    border: solid var(--color-borders);
+    border-width: 1px 0 0 0;
+
+    .LastPublishDate {
+
+      margin: var(--s) 0 0 0;
+      padding: 0 0 var(--s) 0;
+      border: dotted var(--color-borders);
+      border-width: 0 0 1px 0;
+
+      .Date {
+
+        font-weight: bold;
+      }
+    }
+    
+    .components-base-control {
+
+      padding: var(--s2) 0 0;
+
+      .components-base-control__field,
+      .components-base-control__help {
+
+        margin-bottom: 0;
+      }
+    }
+
+    .components-button {
+
+      width: 100%;
+      justify-content: center;
+      margin: var(--s2) 0 0 0;
+    }
+
+    .Message {
+
+      color: var(--color-error);
+      padding: var(--s) 0 0 0;
+      font-size: 0.9em;
+    }
+  }
+}

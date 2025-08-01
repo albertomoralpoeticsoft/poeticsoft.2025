@@ -5,7 +5,8 @@
   "scripts": {
     "block-base-dev": "webpack --env=block-base-dev",
     "block-basegemini-dev": "webpack --env=block-basegemini-dev",
-    "block-assistant-dev": "webpack --env=block-assistant-dev"
+    "block-assistant-dev": "webpack --env=block-assistant-dev",
+    "settingspanel-telegram-dev": "webpack --env=settingspanel-telegram-dev"
   },
   "dependencies": {
     "@babel/core": "^7.18.10",
@@ -21,9 +22,11 @@
     "escpos-usb": "^3.0.0-alpha.4",
     "express": "^5.1.0",
     "file-loader": "^6.2.0",
+    "immutable-update": "^1.0.0",
     "lodash": "^4.17.21",
     "lucide-react": "^0.525.0",
     "mini-css-extract-plugin": "^2.6.1",
+    "moment": "^2.30.1",
     "nodemon": "^3.1.10",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",

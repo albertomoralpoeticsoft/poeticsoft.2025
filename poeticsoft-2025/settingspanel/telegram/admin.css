@@ -1,0 +1,15 @@
+/*!********************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/settingspanel/telegram/admin.scss ***!
+  \********************************************************************************************************************************/
+.compat-field-poeticsoft-media-publish-telegram .field .poeticsoft-media-publish-telegram .selectchannel {
+  width: 100%;
+  margin: 0 0 var(--s075) 0;
+}
+.compat-field-poeticsoft-media-publish-telegram .field .poeticsoft-media-publish-telegram .button {
+  width: 100%;
+}
+.compat-field-poeticsoft-media-publish-telegram .field .help {
+  margin-top: var(--s);
+}
+
+/*# sourceMappingURL=admin.css.map*/

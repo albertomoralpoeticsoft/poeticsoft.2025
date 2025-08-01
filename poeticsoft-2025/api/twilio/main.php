@@ -4,6 +4,32 @@ require_once(WP_PLUGIN_DIR . '/poeticsoft-2025/tools/twilio/vendor/autoload.php'
 
 use Twilio\Rest\Client;
 
+function poeticsoft_twilio_messaging_webhook(WP_REST_Request $req) {
+
+  $res = new WP_REST_Response();
+
+  try {    
+    
+    $params = $req->get_params();
+
+    plugin_log('Twilio message', true);    
+    plugin_log($params);
+
+    header('Content-Type: text/xml; charset=utf-8');
+    
+    echo '<?xml version="1.0" encoding="UTF-8"?><Response><Message>Gracias, recibimos tu mensaje.</Message></Response>';
+    
+    exit;
+    
+  } catch (Exception $e) {
+    
+    $res->set_status($e->getCode());
+    $res->set_data($e->getMessage());
+  }
+
+  return $res;
+}
+
 function poeticsoft_twilio_sandbox_message(WP_REST_Request $req) {
 
   $res = new WP_REST_Response();
@@ -129,6 +155,18 @@ function poeticsoft_twilio_api_send(WP_REST_Request $req) {
 add_action(
   'rest_api_init',
   function () {
+
+    register_rest_route(
+      'poeticsoft/twilio',
+      'messaging/webhook',
+      array(
+        array(
+          'methods'  => 'POST',
+          'callback' => 'poeticsoft_twilio_messaging_webhook',
+          'permission_callback' => '__return_true'
+        )
+      )
+    );
 
     register_rest_route(
       'poeticsoft/twilio',

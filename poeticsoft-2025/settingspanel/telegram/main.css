@@ -1,0 +1,66 @@
+/*!*******************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/settingspanel/telegram/main.scss ***!
+  \*******************************************************************************************************************************/
+/* ****************************
+  TODO common root in blocks 
+  */
+:root {
+  /* SIZES */
+  --space: 8px;
+  --s025: calc(var(--space) * 0.25);
+  --s05: calc(var(--space) * 0.5);
+  --s075: calc(var(--space) * 0.75);
+  --s: var(--space);
+  --s15: calc(var(--space) * 1.5);
+  --s2: calc(var(--space) * 2);
+  --s3: calc(var(--space) * 3);
+  --s4: calc(var(--space) * 4);
+  --s5: calc(var(--space) * 5);
+  --s6: calc(var(--space) * 6);
+  --s7: calc(var(--space) * 7);
+  --s8: calc(var(--space) * 8);
+  --s9: calc(var(--space) * 9);
+  --s10: calc(var(--space) * 10);
+  --color-bg: #f2faff;
+  --color-borders: #69a1eb;
+  --color-error: #f13800;
+}
+
+.components-panel__body.poeticsoft-post-settings-telegram {
+  background-color: var(--color-bg);
+}
+.components-panel__body.poeticsoft-post-settings-telegram .components-panel__body-title {
+  margin-bottom: 0;
+}
+.components-panel__body.poeticsoft-post-settings-telegram .Settings {
+  border: solid var(--color-borders);
+  border-width: 1px 0 0 0;
+}
+.components-panel__body.poeticsoft-post-settings-telegram .Settings .LastPublishDate {
+  margin: var(--s) 0 0 0;
+  padding: 0 0 var(--s) 0;
+  border: dotted var(--color-borders);
+  border-width: 0 0 1px 0;
+}
+.components-panel__body.poeticsoft-post-settings-telegram .Settings .LastPublishDate .Date {
+  font-weight: bold;
+}
+.components-panel__body.poeticsoft-post-settings-telegram .Settings .components-base-control {
+  padding: var(--s2) 0 0;
+}
+.components-panel__body.poeticsoft-post-settings-telegram .Settings .components-base-control .components-base-control__field,
+.components-panel__body.poeticsoft-post-settings-telegram .Settings .components-base-control .components-base-control__help {
+  margin-bottom: 0;
+}
+.components-panel__body.poeticsoft-post-settings-telegram .Settings .components-button {
+  width: 100%;
+  justify-content: center;
+  margin: var(--s2) 0 0 0;
+}
+.components-panel__body.poeticsoft-post-settings-telegram .Settings .Message {
+  color: var(--color-error);
+  padding: var(--s) 0 0 0;
+  font-size: 0.9em;
+}
+
+/*# sourceMappingURL=main.css.map*/

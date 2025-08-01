@@ -34,5 +34,6 @@ function plugin_log($display, $withdate = false) {
 require_once(dirname(__FILE__) . '/setup/main.php'); 
 require_once(dirname(__FILE__) . '/api/main.php');
 require_once(dirname(__FILE__) . '/block/main.php'); 
+require_once(dirname(__FILE__) . '/settingspanel/main.php'); 
 
 register_activation_hook(__FILE__, 'poeticsoft_assistant_init');

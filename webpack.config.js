@@ -43,6 +43,23 @@ module.exports = env => {
       externals = wpexternals
 
       break;
+
+    case 'settingspanel':
+      
+      paths.output = destdir  + '/' + type + '/' + name
+
+      entry = {
+        main: './src/' + type + '/' + name + '/main.js'
+      }
+
+      if(name == 'telegram') {
+
+        entry.admin = './src/' + type + '/' + name + '/admin.js'
+      }
+
+      externals = wpexternals
+
+      break;
   }
 
   const config = {
